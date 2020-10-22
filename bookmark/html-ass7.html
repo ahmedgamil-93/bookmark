@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style/bootstrap.min.css">
+        <link rel="stylesheet" href="css-ass7.css">
+        
+        <title>BOOKMARKER</title>
+    </head>
+    <body>
+        <h1 class="text-center py-4 bg-warning shadow rounded ">BOOKMARKER</h1>   
+        <div class="container   ">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="bookmarker ">
+                        <h2 class="text-center bg-danger shadow rounded w-50 m-auto text-white ">BOOKMARK YOUR FAVOURITE SITES</h2>
+                        <div class="form-group py-2">
+                            <label>Site Name : </label>
+                            <input type="text" class="form-control" id="siteName" placeholder="Enter Site Name .." >
+                        </div>
+                        <div class="form-group py-2">
+                            <label>Site UrL : </label>
+                            <input type="url" class="form-control" id="siteUrl" placeholder="Enter Site UrL ..">
+                        </div>
+                        <div class="form-group  w-25 m-auto">
+                        <button class="btn btn-primary form-control" onclick="addwebsite()">BOOK YOUR WEBSITE</button>
+                    </div>
+                       </div>
+                </div>  
+
+            </div>
+            
+            
+        </div>
+        <div class="container-fluid py-5">
+        <table class="table w-75 m-auto ">
+            <thead>
+                <th>Index</th>
+                <th>WEBSITE</th>
+                <th>Visit</th>
+                <th>Delete</th>
+                
+            </thead>
+            <tbody id="tableBody">
+
+            </tbody>
+        </table>
+    </div>
+    <div class="container-fluid  ">
+        <footer class="bg-warning w-100 fixed-bottom  rounded ">
+        
+            <p class="px-5 text-black "> 2020 BOOKMARKER Inc.</p>
+    
+        </footer>
+    </div>
+    
+    
+        
+
+        <script src="style/jquery-3.5.1.slim.min.js"></script>
+        <script src="style/popper.min.js"></script>
+        <script src="style/bootstrap.min.js"></script>
+        <script src="js-Ass7.js"></script>
+
+        
+    </body>
+</html>
